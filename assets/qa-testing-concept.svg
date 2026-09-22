@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" rx="48" fill="#eef8ff"/>
+  <rect x="70" y="70" width="1060" height="610" rx="32" fill="#fff" stroke="#cfe8f6" stroke-width="3"/>
+  <text x="115" y="145" font-family="Arial" font-size="34" font-weight="700" fill="#18384a">Automated QA &amp; Testing Suite</text>
+  <text x="115" y="185" font-family="Arial" font-size="18" fill="#66808f">Selenium · Python · Postman · Jira</text>
+  <g transform="translate(115 235)">
+    <rect width="650" height="365" rx="24" fill="#102a3a"/>
+    <circle cx="34" cy="34" r="8" fill="#ff7c8e"/><circle cx="60" cy="34" r="8" fill="#ffd066"/><circle cx="86" cy="34" r="8" fill="#7bdc9d"/>
+    <text x="34" y="90" font-family="monospace" font-size="20" fill="#80d4ff">describe</text><text x="129" y="90" font-family="monospace" font-size="20" fill="#fff">("clinic workflow", () =&gt; {</text>
+    <text x="62" y="132" font-family="monospace" font-size="20" fill="#80d4ff">it</text><text x="92" y="132" font-family="monospace" font-size="20" fill="#fff">("submits appointment", async () =&gt; {</text>
+    <text x="92" y="174" font-family="monospace" font-size="20" fill="#b9e98c">await</text><text x="153" y="174" font-family="monospace" font-size="20" fill="#fff"> browser.validateForm();</text>
+    <text x="92" y="216" font-family="monospace" font-size="20" fill="#b9e98c">expect</text><text x="163" y="216" font-family="monospace" font-size="20" fill="#fff">(status).toBe(200);</text>
+    <text x="62" y="258" font-family="monospace" font-size="20" fill="#fff">});</text>
+    <text x="34" y="300" font-family="monospace" font-size="20" fill="#fff">});</text>
+    <text x="34" y="342" font-family="monospace" font-size="18" fill="#7bdc9d">✓ 24 tests passed</text>
+  </g>
+  <g transform="translate(805 235)">
+    <rect width="275" height="365" rx="24" fill="#f9fdff" stroke="#d8edf8"/>
+    <text x="24" y="48" font-family="Arial" font-size="18" font-weight="700" fill="#294b5e">QA Workflow</text>
+    <g font-family="Arial" font-size="16" fill="#38586a">
+      <circle cx="37" cy="92" r="13" fill="#1688d4"/><text x="65" y="98">Test planning</text>
+      <line x1="37" y1="106" x2="37" y2="135" stroke="#b7d9ea" stroke-width="4"/>
+      <circle cx="37" cy="150" r="13" fill="#1688d4"/><text x="65" y="156">Automation</text>
+      <line x1="37" y1="164" x2="37" y2="193" stroke="#b7d9ea" stroke-width="4"/>
+      <circle cx="37" cy="208" r="13" fill="#1688d4"/><text x="65" y="214">API checks</text>
+      <line x1="37" y1="222" x2="37" y2="251" stroke="#b7d9ea" stroke-width="4"/>
+      <circle cx="37" cy="266" r="13" fill="#1688d4"/><text x="65" y="272">Defect logging</text>
+      <line x1="37" y1="280" x2="37" y2="309" stroke="#b7d9ea" stroke-width="4"/>
+      <circle cx="37" cy="324" r="13" fill="#7bdc9d"/><text x="65" y="330">Report &amp; verify</text>
+    </g>
+  </g>
+</svg>
