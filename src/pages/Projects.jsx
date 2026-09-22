@@ -1,12 +1,14 @@
 import React from 'react';
 import PageIntro from '../components/PageIntro.jsx';
 
+const BASE = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: 'Healthcare Analytics Dashboard',
     date: 'Sep 2025 — Present',
     stack: 'SQL · Python · Tableau',
-    image: '/assets/healthcare-dashboard-concept.svg',
+    image: `${BASE}assets/healthcare-dashboard-concept.svg`,
     description: 'A healthcare analytics project focused on cleaning and analyzing 50,000+ patient records and presenting operational metrics through KPI dashboards.',
     role: 'Cleaned, transformed, and analyzed patient data with SQL and Python, then designed six Tableau dashboards for department-level visibility.',
     outcome: 'Produced clear views of patient volume, department workload, and reporting metrics to support operational insight.',
@@ -16,7 +18,7 @@ const projects = [
     title: 'Automated QA & Testing Suite',
     date: 'Jun 2025 — Aug 2025',
     stack: 'Selenium · Python · Postman · Jira',
-    image: '/assets/qa-testing-concept.svg',
+    image: `${BASE}assets/qa-testing-concept.svg`,
     description: 'A structured testing project combining browser automation, API validation, test planning, and defect tracking.',
     role: 'Created test plans, executed Selenium/Python automation, tested REST APIs in Postman, and documented defects in Jira.',
     outcome: 'Built a repeatable QA workflow that demonstrates both automated and manual validation practices.',
@@ -26,7 +28,7 @@ const projects = [
     title: 'Clinic Web Application',
     date: 'May 2025 — Jun 2025',
     stack: 'HTML/CSS · JavaScript',
-    image: '/assets/clinic-project.png',
+    image: `${BASE}assets/clinic-project.png`,
     description: 'A responsive clinic website designed around digital healthcare services, appointment access, and patient-facing information.',
     role: 'Designed and developed the responsive interface and interactive JavaScript features for clinic and appointment workflows.',
     outcome: 'Delivered a complete multi-page clinic experience with a clear healthcare-oriented visual identity and responsive navigation.',

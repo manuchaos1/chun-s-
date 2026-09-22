@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
@@ -10,7 +10,6 @@ import Projects from './pages/Projects.jsx';
 import Services from './pages/Services.jsx';
 import References from './pages/References.jsx';
 import Contact from './pages/Contact.jsx';
-import NotFound from './pages/NotFound.jsx';
 
 function App() {
   const location = useLocation();
@@ -33,7 +32,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/references" element={<References />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
         <Footer />
